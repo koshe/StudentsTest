@@ -1,0 +1,10 @@
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\bin\Release\StudentsTest.exe.config
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\bin\Release\StudentsTest.exe
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\bin\Release\StudentsTest.pdb
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.Form1.resources
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.Form2.resources
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.Form3.resources
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.Properties.Resources.resources
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.csproj.GenerateResource.Cache
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.exe
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.pdb

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Test" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=Test;Persist Security Info=True;User ID=sa" SettingsObjectName="StudentsTest.Properties.Settings" SettingsPropertyName="TestConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.tsp_iudCity" Method="tsp_iudCity">
+    <Parameter Name="iud" Type="System.Byte" DbType="TinyInt" />
+    <Parameter Name="City_id" Parameter="city_id" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="City_Name" Parameter="city_Name" Type="System.String" DbType="NVarChar(255)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.if_CitySelect" Method="if_CitySelect" IsComposable="true">
+    <ElementType Name="if_CitySelectResult">
+      <Column Name="City_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="City_Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.if_StudentsSelect" Method="if_StudentsSelect" IsComposable="true">
+    <Parameter Name="City_id" Parameter="city_id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="if_StudentsSelectResult">
+      <Column Name="Student_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="City_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="FullName" Type="System.String" DbType="NVarChar(511) NOT NULL" CanBeNull="false" />
+      <Column Name="PersonalID" Type="System.String" DbType="NVarChar(11)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="City_Name" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.tsp_iudStudents" Method="tsp_iudStudents">
+    <Parameter Name="iud" Type="System.Byte" DbType="TinyInt" />
+    <Parameter Name="Student_id" Parameter="student_id" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="City_id" Parameter="city_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FirstName" Parameter="firstName" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="LastName" Parameter="lastName" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="PersonalID" Parameter="personalID" Type="System.String" DbType="NVarChar(11)" />
+    <Parameter Name="PhoneNumber" Parameter="phoneNumber" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

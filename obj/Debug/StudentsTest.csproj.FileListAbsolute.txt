@@ -1,0 +1,11 @@
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\bin\Debug\StudentsTest.exe.config
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\bin\Debug\StudentsTest.exe
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\bin\Debug\StudentsTest.pdb
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Debug\StudentsTest.csprojResolveAssemblyReference.cache
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Debug\StudentsTest.Form1.resources
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Debug\StudentsTest.Properties.Resources.resources
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Debug\StudentsTest.csproj.GenerateResource.Cache
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Debug\StudentsTest.exe
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Debug\StudentsTest.pdb
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Debug\StudentsTest.Form2.resources
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Debug\StudentsTest.Form3.resources
