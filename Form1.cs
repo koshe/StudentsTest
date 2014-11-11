@@ -51,7 +51,7 @@ namespace StudentsTest
 
         private void m_AddCity()
         {
-            using (Form2 frm = new Form2() { Text = "დამატება" })
+            using (Form2 frm = new Form2() { Text = "ქალაქის დამატება" })
             {
                 if (frm.ShowDialog() == DialogResult.OK)
                 {
@@ -79,7 +79,7 @@ namespace StudentsTest
             int? _city_id = Convert.ToInt32(dataGridView1["colCity_id",dataGridView1.CurrentRow.Index].Value);
             if(_city_id<=0) return;
 
-            using (Form2 frm = new Form2() { Text = "რედაქტირება" })
+            using (Form2 frm = new Form2() { Text = "ქალაქის რედაქტირება" })
             {
                 frm.button1.Text = "რედაქტირება";
                 frm.textBox1.Text = dataGridView1["colCity_Name", dataGridView1.CurrentRow.Index].Value.ToString();
@@ -214,7 +214,7 @@ namespace StudentsTest
         private void m_AddStudent()
         {
             int _city_id = Convert.ToInt32(dataGridView1["colCity_id", dataGridView1.CurrentRow.Index].Value);
-            using (Form3 frm = new Form3(_city_id) { Text = "დამატება" })
+            using (Form3 frm = new Form3(_city_id) { Text = "სტუდენტის დამატება" })
             {
                 if (frm.ShowDialog() == DialogResult.OK)
                 {
@@ -250,7 +250,7 @@ namespace StudentsTest
             if (_student_id == null) return;
 
             int _city_id = Convert.ToInt32(dataGridView2["colCity_id1", dataGridView2.CurrentRow.Index].Value);
-            using (Form3 frm = new Form3(_city_id) { Text = "რედაქტირება" })
+            using (Form3 frm = new Form3(_city_id) { Text = "სტუდენტის რედაქტირება" })
             {
                 frm.button1.Text = "რედაქტირება";
                 frm.textBox1.Text=string.Format("{0}",dataGridView2["colFirstName", dataGridView2.CurrentRow.Index].Value);

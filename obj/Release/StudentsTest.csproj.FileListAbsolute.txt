@@ -8,3 +8,4 @@ d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\ob
 d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.csproj.GenerateResource.Cache
 d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.exe
 d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.pdb
+d:\users\koba\documents\visual studio 2013\Projects\StudentsTest\StudentsTest\obj\Release\StudentsTest.csprojResolveAssemblyReference.cache
